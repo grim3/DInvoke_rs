@@ -7,6 +7,10 @@ edition = "2018"
 opt-level = 3
 debug = 0
 
+[lib]
+name = "dinvoke_rs"
+path = "./dinvoke/src/lib.rs" 
+
 [dependencies]
 dinvoke = { path = "dinvoke" }
 manualmap = { path = "manualmap" }
